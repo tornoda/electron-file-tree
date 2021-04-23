@@ -1,0 +1,36 @@
+.gutter {
+  padding-top: 15px;
+}
+
+.home {
+  padding: 10px 20px;
+}
+
+.menu {
+  .gutter;
+
+  &-select {
+    display: flex;
+    padding-bottom: 20px;
+      align-items: center;
+  }
+
+  &-maxLevel {
+    & > div {
+      display: flex;
+      align-items: center;
+
+      & > span {
+        margin-right: 10px !important;
+      }
+    }
+  }
+}
+
+.folder {
+  .gutter;
+}
+
+.tree {
+  .gutter;
+}

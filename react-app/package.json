@@ -1,0 +1,58 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "cracoConfig": "craco/craco.config.js",
+  "homepage":"./",
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "antd": "^4.15.1",
+    "antd-mobile": "^2.3.4",
+    "dayjs": "^1.10.4",
+    "react": "^17.0.2",
+    "react-desktop": "^0.3.9",
+    "react-dom": "^17.0.2",
+    "web-vitals": "^1.1.1",
+    "wecomjsdk": "^1.0.2"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "CI=false && craco build",
+    "test": "craco test",
+    "analyze": "source-map-explorer 'dist/static/js/*.js'"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^6.1.1",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^26.0.22",
+    "@types/node": "^12.20.7",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@types/react-router-dom": "^5.1.7",
+    "craco-antd": "^1.19.0",
+    "react-scripts": "4.0.3",
+    "source-map-explorer": "^2.5.2",
+    "typescript": "^4.2.3",
+    "url-loader": "^4.1.1"
+  }
+}
